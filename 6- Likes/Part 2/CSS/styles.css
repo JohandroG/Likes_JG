@@ -1,0 +1,143 @@
+*{
+    font-family: cursive;
+}
+
+
+/*=====================================Nav Config===============================*/
+nav{
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 0px 600px;
+    width: 962px;
+    margin-left: 60px;
+}
+
+nav>h1{
+    margin: 0;
+    margin-left: 25px;
+    font-size: 40px;
+}
+
+/*=====================================Main body Config===============================*/
+
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1400px;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    
+
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-end;
+    margin-right: 30px;
+
+
+}
+
+.rightside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    width: 700px;
+    align-items: flex-start;
+}
+
+/*=====================================Boxes Config===============================*/
+
+.feed>h1{
+    font-size: 40px;
+    margin: 10px 0px;
+    margin-right: 250px;
+    font-weight: 500;
+}
+.user{
+    border: 7px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 230px;
+    margin: 10px;
+    
+
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    align-items: center;
+}
+
+.top>h1{
+    margin: 10px 40px;
+    margin-right: 50px;
+    font-size: 37px;
+    font-weight: 100;
+    width: 500px;
+
+
+}
+.top>h2{
+
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 0px;
+    width: 200px;
+}
+
+.top>button{
+
+    font-size: 25px ;
+    font-weight: 700;
+    margin-right: 30px;
+    padding: 10px 30px;
+    background-color: rgb(255, 217, 102);
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+}
+
+.bottom{
+    font-size: 29px;
+    margin: 0;
+}
+
+.bottom>p{
+    margin: 20px;
+}
+
+.avatar{
+    border: 7px solid black;
+    margin: 10px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ppicture>img{
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.addavatar>a{
+    font-size: 27px;
+}
+
+.james>h1{
+    font-size: 35px;
+}
+
